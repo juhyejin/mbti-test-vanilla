@@ -1,0 +1,61 @@
+body{
+  background-color: #EAF8FF;
+  background-image: url("../images/result_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.character{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+.result{
+  max-width: 600px;
+  margin: auto;
+}
+.result .box{
+  min-height: 70px;
+  background-color: #FFF;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  padding: 30px 10px;
+}
+.result h3{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  margin: 40px 0 20px;
+}
+.result .jobs{
+  height: 200px;
+  display: flex;
+  gap: 10px; /*flex라는 속성을 주고 각 자식들 사이의 공간*/
+}
+.result .job{
+  flex: 1;
+  background-color: #FFF;
+  background-image: url("../images/result_star.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  border: 1px solid #FFE603;
+}
+.result .lecture img{
+  margin-bottom: 40px;
+  width: 100%;
+}
